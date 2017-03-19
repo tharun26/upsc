@@ -1,0 +1,125 @@
+html,body,h1,h2,h3,p,ol,li,a
+{
+  margin:0;
+  padding:0;
+  font:inherit;
+  font-size: 100%;
+}
+
+h1
+{
+  font-family:"Helvetica",Arial,san-serif;
+  text-align: center;
+  font-weight:bold;
+  font-size:40px;
+  color:#ffffff;
+  padding:10px;
+}
+h2
+{
+  font-family:"Helvetica",Arial,san-serif;
+  text-align: center;
+  font-weight:bold;
+  font-size:20px;
+  color:#ffffff;
+  padding:5px;
+}
+h3
+{
+  font-size:20px;
+  font-family:"Helvetica",Arial,san-serif;
+  color:#ffffff;
+  font-weight: bold;
+  text-decoration:underline;
+}
+.header
+{
+  background-color: #030a13;
+}
+.tag-line
+{
+  background-color: #21272d;
+}
+.navigation,.introduction,.quotes
+{
+  width:700px;
+}
+.navigation
+{
+  background:#e6831d;
+  padding:0px;
+  margin:0 auto 0 auto;
+  text-align: center
+}
+.navigation ul
+{
+    margin:0;
+}
+.navigation li
+{
+  font-size:18px;
+  font-weight:bold;
+  font-family:"Helvetica",Arial,san-serif;
+  display:inline-block;
+  list-style-type: none;
+  padding-right:7px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left: 5px;
+}
+.navigation li:hover
+{
+  background:rgb(113, 163, 238);
+  transition: background 0.25s;
+}
+.navigation a
+{
+    text-decoration: none;
+    color:#000000;
+}
+.navigation a:active
+{
+  color:#ffffff;
+}
+.introduction, .quotes
+{
+  background:#554e4c;
+  padding:0px;
+  color:#f2ffff;
+  margin:0 auto 0 auto;
+  font-family:"Helvetica",Arial,san-serif;
+}
+.introduction h3
+{
+  padding:10px;
+}
+.introduction p
+{
+  padding-left: 10px;
+  padding-right:10px;
+}
+.introduction li
+{
+  padding-left:15px;
+  list-style-type:circle ;
+}
+.quotes h3
+{
+  padding-left:10px;
+  padding-top:10px;
+}
+.quotes li
+{
+  list-style-type: none;
+  height:128px;
+  padding:5px
+
+}
+.quotes img[alt=gandhi]
+{
+float:right;
+}
+.quotes img[alt=obama]
+{
+float:left;
+}

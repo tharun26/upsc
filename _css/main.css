@@ -32,6 +32,16 @@ h3
   font-weight: bold;
   text-decoration:underline;
 }
+h4
+{
+  font-size:18px;
+  font-weight:bold;
+  text-decoration: underline;
+}
+body
+{
+  line-height:25px;
+}
 .header
 {
   background-color: #030a13;
@@ -40,7 +50,7 @@ h3
 {
   background-color: #21272d;
 }
-.navigation,.introduction,.quotes
+.navigation,.introduction,.quotes,.syllabus
 {
   width:700px;
 }
@@ -81,7 +91,7 @@ h3
 {
   color:#ffffff;
 }
-.introduction, .quotes
+.introduction, .quotes ,.syllabus
 {
   background:#554e4c;
   padding:0px;
@@ -112,8 +122,7 @@ h3
 {
   list-style-type: none;
   height:128px;
-  padding:5px
-
+  padding:5px 5px 0px 5px;
 }
 .quotes img[alt=gandhi]
 {
@@ -122,4 +131,31 @@ float:right;
 .quotes img[alt=obama]
 {
 float:left;
+}
+.quotes
+{
+  padding-bottom: 10px;
+}
+.footer
+{
+  background:#21272d;
+  padding:0px;
+  color:#f2ffff;
+  margin:0 auto 0 auto;
+  font-family:"Helvetica",Arial,san-serif;
+  padding:30px 30px 30px 30px;
+}
+.footer p
+{
+  text-align:center;
+}
+.footer a
+{
+text-decoration: none;
+color:rgb(214, 241, 237);
+font-weight: bold;
+}
+.footer a:hover
+{
+  color:blue;
 }
